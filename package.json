@@ -4,7 +4,7 @@
   "description": "Test ECMAScript6",
   "main": "index.js",
   "scripts": {
-    "watch": "babel -d build/ src/  --watch"
+    "watch": "babel -d build/ src/ --watch"
   },
   "keywords": [
     "ES6"

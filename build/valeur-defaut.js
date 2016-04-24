@@ -1,8 +1,6 @@
 "use strict";
 
-function multiply(a) {
-    var b = arguments.length <= 1 || arguments[1] === undefined ? 1 : arguments[1];
-
+function multiply(a, b = 1) {
     return a * b;
 }
 
