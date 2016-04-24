@@ -2,16 +2,18 @@
 
 // Example 1
 
-const colors = ["red", "blue", "green"];
+var colors = ["red", "blue", "green"];
 
 // Sans la fonction fléchée
-const size1 = colors.map(function (s) {
+var size1 = colors.map(function (s) {
   return s.length;
 });
 console.log(size1); // [3, 4, 5]
 
 // Avec la fonction fléchée
-const size2 = colors.map(s => s.length);
+var size2 = colors.map(function (s) {
+  return s.length;
+});
 console.log(size2); // [3, 4, 5]
 
 // Example 2

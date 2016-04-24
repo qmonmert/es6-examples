@@ -3,7 +3,9 @@
 // Exemple 1
 
 var list = [1, 2, 3];
-var [a,, b] = list;
+var a = list[0];
+var b = list[2];
+
 console.log(a); // 1
 console.log(b); // 3
 
@@ -17,4 +19,6 @@ var two = numbers[1];
 var three = numbers[2];
 
 // Avec la déstructuration
-var [one, two, three] = numbers;
+var one = numbers[0];
+var two = numbers[1];
+var three = numbers[2];
